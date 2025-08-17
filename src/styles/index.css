@@ -52,6 +52,7 @@ html[dir="rtl"] body {
 .article-header { margin-block: 8px 16px; }
 .article-header .kicker { color: var(--brand); font-weight: 800; margin-bottom: 8px; }
 .article-header .title { font-size: clamp(28px, 4vw, 44px); line-height: 1.15; margin: 0; }
+.article-header .subtitle { color: #333; font-size: clamp(16px, 2.8vw, 20px); line-height: 1.7; margin: 10px 0 6px; }
 .article-header .meta { color: var(--muted); display: flex; gap: 8px; align-items: center; margin-top: 10px; }
 .article-header .meta .dot { opacity: .6; }
 
@@ -102,6 +103,7 @@ html[dir="rtl"] body {
   .mobile-only { display: inline-flex; }
   .header-top-inner { grid-template-columns: 56px 1fr 56px; padding-block: 16px; padding-inline: 16px; }
   .brand img { height: 40px; }
+  .article-header .subtitle { font-size: 16px; }
   .article-footer { flex-direction: column; align-items: flex-start; }
   .footer-links { grid-template-columns: 1fr; }
 }
