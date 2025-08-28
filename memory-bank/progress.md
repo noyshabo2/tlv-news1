@@ -1,10 +1,12 @@
 ## Progress
 
 What works:
-- Vite + React scaffold
-- Header, footer, article page
+- Next.js 14 + React App Router
+- Header, footer, article pages
 - RTL styles and typography
-- Route נוסף `/article2` עם דף כתבה שני בעברית (נוי שבו מ-Wix)
+- Static export configuration for Vercel
+- Route structure: `/`, `/article`, `/article2`
+- Client/Server Component split (Footer is client)
 
 Pending:
 - Content grid pages
@@ -13,5 +15,9 @@ Pending:
 
 Known issues:
 - Nav overflow on very small screens could be improved
+
+Recent changes:
+- Migrated from Vite to Next.js successfully
+- Fixed build issues with event handlers in static export
 
 
