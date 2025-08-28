@@ -12,7 +12,7 @@ What works:
 
 Deployment URLs:
 - **Production**: https://timeout-7ml3yn5pz-noysh1234-gmailcoms-projects.vercel.app
-- **Repository**: https://github.com/NoyShabo/tlv-news.git
+- **Repository**: https://github.com/noyshabo2/tlv-news1.git
 
 Pending:
 - Content grid pages
