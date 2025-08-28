@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './root/App.jsx'
 import ArticlePage from './routes/ArticlePage.jsx'
+import ArticlePage2 from './routes/ArticlePage2.jsx'
 import './styles/index.css'
 
 const router = createBrowserRouter([
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <ArticlePage /> },
       { path: '/article', element: <ArticlePage /> },
+      { path: '/article2', element: <ArticlePage2 /> },
     ],
   },
 ])

@@ -1,10 +1,13 @@
 ## Active Context
 
-Current focus: Build a single article page with RTL layout mimicking Time Out. Header, navigation, hero image, article body, and footer are implemented.
+Current focus: הוספת דפי כתבה מרובים במבנה RTL.
 
-Next steps:
-- Enhance responsive spacing and typography
-- Add category pages and listing
-- Extract design tokens and componentize blocks
+בוצע:
+- נוצר דף כתבה נוסף `ArticlePage2.jsx` עם כתבה בעברית על נוי שבו, עובדת Wix, שסיכלה מתקפת האקרים מאיראן ונשקלת ל"עובדת החודש".
+- עודכן ראוט חדש ב-`src/main.jsx` בנתיב `/article2`.
 
+הבא:
+- לשפר טיפוגרפיה רספונסיבית וריווח
+- להוסיף עמודי קטגוריות ורשימות
+- לרכז טוקנים עיצוביים ולפרק קומפוננטות
 

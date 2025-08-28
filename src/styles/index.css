@@ -103,7 +103,7 @@ html[dir="rtl"] body {
   .mobile-only { display: inline-flex; }
   .header-top-inner { grid-template-columns: 56px 1fr 56px; padding-block: 16px; padding-inline: 16px; }
   .brand img { height: 40px; }
-  .article-header .subtitle { font-size: 16px; }
+  .article-header .subtitle { font-size: 22px; font-weight: 500; }
   .article-footer { flex-direction: column; align-items: flex-start; }
   .footer-links { grid-template-columns: 1fr; }
 }
